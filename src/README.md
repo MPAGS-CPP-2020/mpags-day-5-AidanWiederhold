@@ -98,11 +98,11 @@ classical ciphers, it is transliterated using the following rules:
 - Digits are translated to their English equivalent words (e.g. '0' -> "ZERO")
 - All other characters (punctuation) are discarded
 
-At present, the Caesar and Playfair ciphers are supported.
+At present, the Caesar, Playfair and Vigenere ciphers are supported.
 
 # Testing
 
-After building the MPAGSCipher library it can be tested by running `ctest -VV` from the build directory.
+After building the MPAGSCipher library it can be tested by running `ctest -V` from the build directory.
 
 # Source Code Layout
 Under this directory, the code and associated files are organised as
